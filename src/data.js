@@ -1,0 +1,86 @@
+const menu = [
+  {
+    id: 1,
+    title: 'chocolat caramel salé',
+    category: 'desserts',
+    price: "Grand'Chef Joly",
+    img: '../images/mj_item1.jpg',
+    desc: `Pâte sablée avec une onctueuse ganache au chocolat et son caramel salé caché`,
+  },
+  {
+    id: 2,
+    title: 'paris brest',
+    category: 'desserts',
+    price: "Grand'Chef Joly",
+    img: '../images/mj_item2.jpg',
+    desc: `pâte à choux croquante avec une crème mousseline pralinée et ses amandes effilées `,
+  },
+  {
+    id: 3,
+    title: 'forêt noir',
+    category: 'desserts',
+    price: "Grand'Chef Joly",
+    img: '../images/mj_item3.jpg',
+    desc: `gâteau au chocolat avec sa chantilly à la vanille et sa confiture de cerises`,
+  },
+  {
+    id: 4,
+    title: 'croque-en-bouche',
+    category: 'desserts',
+    price: "Grand'Chef Joly",
+    img: '../images/mj_item4.jpg',
+    desc: `choux garnis de sa crème légère à la pistache `,
+  },
+  {
+    id: 7,
+    title: 'phoque',
+    category: 'entrées',
+    price: 'Cheffe Beauchamp',
+    img: '../images/ab_phoque.jpg',
+    desc: `Tataki de phoque grillé, sauce beurre fumée, condiment betterave, pomme grillées, pommes fraîches et salicorne `,
+  },
+  {
+    id: 5,
+    title: 'PDT',
+    category: 'plats',
+    price: 'Cheffe Beauchamp',
+    img: '../images/ab_pdt.jpg',
+    desc: `Pomme de terre confites au beurre, siphon au pomme de terres et oignons brûlés, champignons sautés, condiment de pommes acidulées, pommes, oignons grillés, tuiles de pomme de terres et noisettes grillées `,
+  },
+
+  {
+    id: 6,
+    title: 'champignons sucrés',
+    category: 'desserts',
+    price: 'Cheffe Beauchamp',
+    img: '../images/ab_champigonssucres.jpg',
+    desc: `Crémeux chocolat blanc cèpes et lactaire (à odeur d’érable), tuiles de génoise, caramel au cèpes, pommes caramélisées au vinaigre de cidre de pomme, pommes fraîches et noisettes`,
+  },
+  {
+    id: 8,
+    title: 'Poêlée de champignons',
+    category: 'entrées',
+    price: 'Cheffe Caron',
+    img: '../images/ac_champignons.jpg',
+    desc: `Champignons forestiers, beurre de cajou, thym,bourrache. `,
+  },
+  {
+    id: 9,
+    title: 'Volaille Suprême',
+    category: 'plats',
+    price: 'Cheffe Caron',
+    img: '../images/ac_volaillespreme.jpg',
+    desc: `Suprême de volaille rôtie, oeufs de caille, Bruxelles confits, velouté d'herbes. `,
+  },
+  {
+    id: 10,
+    title: 'Moka Cake',
+    category: 'desserts',
+    price: 'Cheffe Caron',
+    img: '../images/ac_mokacake.jpg',
+    desc: `Gâteau moka, crème glacée café,meringue, caramel beurre de sauge,fleur de sauge. `,
+  },
+
+
+];
+export default menu;
