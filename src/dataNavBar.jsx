@@ -7,7 +7,7 @@ export const links = [
   },
   {
     id: 2,
-    href: '#about',
+    href: '#chefs',
     text: "grand'Chef",
   },
   {
@@ -17,13 +17,18 @@ export const links = [
   },
   {
     id: 4,
-    href: '#contact',
-    text: 'contact',
+    href: '#news',
+    text: 'Nouvelles',
   },
   {
     id: 5,
-    href: '#profile',
+    href: '#react',
     text: 'React-code',
+  },
+  {
+    id: 6,
+    href: '#reservation',
+    text: 'Réserver',
   },
 ];
 

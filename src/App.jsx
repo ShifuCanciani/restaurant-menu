@@ -12,6 +12,7 @@ import ReactCode from "./ReactCode";
 import { Fade } from "react-awesome-reveal"
 import ThemeToggle from "./ThemeToggle";
 import CategoriesCheffes from "./CategoriesCheffes";
+import ReservationTable from "./ReservationTable";
 
 const allCategories = ['all', ...new Set(menu.map((item)=> item.category))]
 const tempCatergoriesCheffes = menu.map((item)=> item.price)
@@ -41,6 +42,7 @@ const App = () => {
   return <main>
     <ThemeToggle />
       <Header />
+
     <section className="header-cucina">
       <Fade>
         <Title text='Cucina' />
@@ -48,7 +50,7 @@ const App = () => {
         </Fade>
     </section>
 
-    <section className="header-cheffes">
+    <section className="header-cheffes" id="chefs">
       <Fade>
         <Title text="'cheffes' della cucina" />
         <GrandChef />
@@ -62,19 +64,27 @@ const App = () => {
       <Menu items={menuItems}/>
     </section>
 
-    <section className="header-cheffes">
+    <section className="header-cheffes" id='news'>
       <Fade>
         <Title text="Les nouvelles ..." />
         <Carousel />
         </Fade>
     </section>
 
-    <section className="header-cucina">
+    <section className="header-reservation" id="reservation">
+      <Fade>
+        <Title text='Réservation' />
+          <ReservationTable />
+        </Fade>
+    </section>
+
+    <section className="header-cucina" id="react">
       <Fade>
         <Title text='React Code' />
         <ReactCode />
         </Fade>
     </section>
+
 
       </main>;
 };
